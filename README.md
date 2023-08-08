@@ -64,31 +64,32 @@ A Netakadémia * "Az első webes C# projektem: TO-DO alkalmazás készítése (c
 * a másik fogalom amit használni fogunk azt pedig a HTTP, ez pedig az a protokolnak hivott dolog, amivel elérjük, hogy a böngésző és a server számítógép tudjon egymással beszélni. A protokol az ilyen kérdéseket és válaszokat tartalmaz, leírja, hogy milyen kérdéseket lehet a server felé küldeni és milyen válaszokat tudd a server adni, ahhoz hogy ezen a HTTP-n belül tudjon maradni, erről is lesz szó.
 * a server alkalmazásunk egy úgynevezett MVC környzetben fejlődik,
 * ami a lényeg, hogy egy olyan alkalmazást fogunk fejleszteni a webszerveren, ami nem a webszervern fog a felhasználókkal találkozni, hanem egy köztes alkalmazással ez a böngésző alkalmazás és a böngészőből kérdések fogok megfogalmazni a webszerver felé, a szerver válaszolni fog a válassza az HTTP-n keresztül fog megérkezni és általában HTML formátumban jön, és ezeket a HTMl formátumu válaszokat a böngészőnk értelmezi és megjeleniti.
-                                                                          +--------------------------+
-                                                                          |  Szerver számítógép      |
-                               +------------------------+                 |                          |
-                               |   Desktop számítógép   |                 |                          |
-                               |    Mobil eszköz        |    Hálózati     |                          |
-                               |                        |    kapcsolat    | +----------------------+ |
-+---------------+              |                        |                 | |                      | |
-|               |              |    +-------------+     +---------------> | |  Szerver alkalmazás  | |
-|  Felhasználó  |              |    | Alkalmazás  |     |                 | |  (WebSzerveren futó  | |
-|               |              |    | (Böngésző)  |     | <---------------+ |  app)                | |
-|               |              |    +-------------+     |                 | |                      | |
-+---------------+              |                        |        ^        | +----------------------+ |
-                               +------------------------+        |        |                          |
-                                                                 |        |              ^           |
-                                            ^                    |        |              |           |
-                                            |                    |        |              |           |
-                                            |                    |        |              |           |
-                                            |                    |        +--------------------------+
-                                            |                    |                       |
-                                            +                    +                       +
-                                          HTML                 HTTP                     MVC
+ 
+                                                                                              +--------------------------+
+                                                                                              |  Szerver számítógép      |
+                                                   +------------------------+                 |                          |
+                                                   |   Desktop számítógép   |                 |                          |
+                                                   |    Mobil eszköz        |    Hálózati     |                          |
+                                                   |                        |    kapcsolat    | +----------------------+ |
+                    +---------------+              |                        |                 | |                      | |
+                    |               |              |    +-------------+     +---------------> | |  Szerver alkalmazás  | |
+                    |  Felhasználó  |              |    | Alkalmazás  |     |                 | |  (WebSzerveren futó  | |
+                    |               |              |    | (Böngésző)  |     | <---------------+ |  app)                | |
+                    |               |              |    +-------------+     |                 | |                      | |
+                    +---------------+              |                        |        ^        | +----------------------+ |
+                                                   +------------------------+        |        |                          |
+                                                                                     |        |              ^           |
+                                                                ^                    |        |              |           |
+                                                                |                    |        |              |           |
+                                                                |                    |        |              |           |
+                                                                |                    |        +--------------------------+
+                                                                |                    |                       |
+                                                                +                    +                       +
+                                                              HTML                 HTTP                     MVC
 
 
 
-                                               Webes Alkalmazásfejlesztés
+                                                                   Webes Alkalmazásfejlesztés
 
 * Röviden egy ilyen alkalmazás a cél. Nem azt fogjuk programozni, amit a felhasználó a szerveren lát, az alkalmazásunkban. Hanem az alkalmazásunk gyárt egy olyan dolgot, amit a hálózaton átküldve majd a böngésző fog megjeleniteni
 * épitünk egy nagyon egysszerű alkalmazást és átfogjuk nézni, hogy ezek a kérés válaszok, ezek hogy néznek ki, hogyan épül fel egy ilyen alkalmazás, mire kell figyelni az alkalmazás fejlesztése közben.
@@ -103,7 +104,6 @@ A Netakadémia * "Az első webes C# projektem: TO-DO alkalmazás készítése (c
 * a Commit All-al tudom az összes módosítást feltölteni és ezt most a sajátgépemen csomagolta be ezt az egészet amit módosítottam, és ez addig nem fog a szerverhez kimenni, amíg én azt nem mondom, hogy ezeket töltse fel,
 * tehát két lépésből áll az első a commit-olás (Commit All) és a felküldés a szerverre a második lépés (Sync) és (Fetch), ezzel feltöltöm a szerverre. 
 
->>>>>>> 9fb3d62761978433a2e0d573b7d1d3b80eeac332
 ### 01 Összefoglaló
 
 *
@@ -111,22 +111,3 @@ A Netakadémia * "Az első webes C# projektem: TO-DO alkalmazás készítése (c
 * 
 
 ## 02_Bevezetés és template kialakítása 2
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
