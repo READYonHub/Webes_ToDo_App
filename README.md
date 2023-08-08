@@ -30,4 +30,24 @@ A Netakadémia * "Az első webes C# projektem: TO-DO alkalmazás készítése (c
 *
 * két fajta fejlesztéssel fogunk megismerkedni alapvetően
 ### 01 Összefoglaló
-- 
+
+## 02_Bevezetés és template kialakítása 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
