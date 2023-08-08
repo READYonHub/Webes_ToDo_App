@@ -27,5 +27,7 @@ A Netakadémia * "Az első webes C# projektem: TO-DO alkalmazás készítése (c
 * egy üres mappát válasszunk ki célmappának
 * majd kattintsunk a Clone-ra
 * ezzel leklónoztuk ezt a könyvtárat a saját gépünkre
+*
+* két fajta fejlesztéssel fogunk megismerkedni alapvetően
 ### 01 Összefoglaló
 - 
