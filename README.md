@@ -1,5 +1,5 @@
 # Webes_ToDo_App
-A Netakadémia * "Az első webes C# projektem: TO-DO alkalmazás készítése (classic) " -ból származik minden
+
 ## A tanfolyam Privát, csak megosztott emberek számára elérhető.
 
 ## 01_Bevezetés és template kialakítása 1
