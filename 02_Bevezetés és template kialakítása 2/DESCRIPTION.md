@@ -26,4 +26,9 @@
 * egy olyan mappába "browzoljuk" (Browse), ami üres
 * és ezzel a template-l menjünk tovább
 * katt az OK-ra
+* ezután kapunk egy varázslót, ez sokféle alkalmazástipust felajánl ezekből nekünk az MVC-re van szükségünk
+* válasszuk ki az MVC-t és Create
+* most létrehozzan nekünk ezt a projektet , illetve azt tudni kell , hogy ezekből a projektekből egy saját megoldást tudunk gyártani, ez azt jelenti, hogy a sját megoldásunk az több projektet tartalmaz most itt nekünk a ToDOApp az egy projekt lesz
+* és ha megnézzük, hogy a Solution Explorer-ben mennyi dolgott berakott, azt hiszem ha ezt átnézzük, akkor mindenki érzi hogy ezt/ezeket itt kézzel létehozni a világn semmi értelme nincsen.
+* ez be van építve a Visual Studioba és nekünk ezt madj szépen létrehozza azt a webes alkalmazást amivel  majd webes környezet tudunk majd teremteni és böngésző kéréseket tudunk majd kiszolgálni
 * 
